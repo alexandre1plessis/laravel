@@ -1,0 +1,9 @@
+@extends("base")
+@section('contenu')
+    @while($ite->hasnext()){
+        $ite->next();
+    }
+@endsection
+@section('title')
+    Iterator
+@endsection
